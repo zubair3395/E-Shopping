@@ -23,6 +23,12 @@
       "email": "jke@gmail.com",
       "password": "12345",
       "id": 4
+    },
+    {
+      "name": "ali",
+      "email": "xyz@gmail.com",
+      "password": "12345",
+      "id": 5
     }
   ],
   "Collection": [
@@ -134,7 +140,7 @@
       "category": "women's clothing",
       "image": "https://www.junaidjamshed.com/media/catalog/product/2/2/22-869_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:",
       "rating": 3.6,
-      "stock":100
+      "stock": 100
     },
     {
       "id": 12,
@@ -143,8 +149,8 @@
       "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
       "category": "women's clothing",
       "image": "https://www.junaidjamshed.com/media/catalog/product/2/2/22-752_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
-      "rating":  2.6,
-      "stock":100
+      "rating": 2.6,
+      "stock": 100
     },
     {
       "id": 13,
@@ -154,7 +160,7 @@
       "category": "women's clothing",
       "image": "https://www.junaidjamshed.com/media/catalog/product/2/2/22-3041_4_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
       "rating": 2.9,
-      "stock":100
+      "stock": 100
     },
     {
       "id": 14,
@@ -164,7 +170,7 @@
       "category": "women's clothing",
       "image": "https://www.junaidjamshed.com/media/catalog/product/2/2/22-3001-1_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
       "rating": 3.8,
-      "stock":100
+      "stock": 100
     },
     {
       "id": 15,
@@ -174,94 +180,99 @@
       "category": "women's clothing",
       "image": "https://www.junaidjamshed.com/media/catalog/product/2/2/22-218_3_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=373",
       "rating": 4.7,
-      "stock":100
+      "stock": 100
     },
     {
-    "id": 16,
-    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-    "price": 109.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "category": "men's clothing",
-    "image": "https://www.junaidjamshed.com/media/catalog/product/3/4/34267_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
-    "rating": 4.9,
-    "stock":100
-  },
-  {
-    "id": 17,
-    "title": "Mens Casual Premium Slim Fit T-Shirts ",
-    "price": 22.3,
-    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-    "category": "men's clothing",
-    "image": "https://www.junaidjamshed.com/media/wysiwyg/w22/Unstitched.jpg",
-    "rating": 4.1,
-    "stock":100
-  },
-  {
-    "id": 18,
-    "title": "Mens Cotton Jacket",
-    "price": 55.99,
-    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-    "category": "men's clothing",
-    "image": "https://www.junaidjamshed.com/media/wysiwyg/w22/Kurta_Pajama.jpg",
-    "rating": 4.2,
-    "stock":100
-  },
-  {
-    "id": 19,
-    "title": "Mens Casual Slim Fit",
-    "price": 15.99,
-    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-    "category": "men's clothing",
-    "image": "https://www.junaidjamshed.com/media/wysiwyg/w22/Sherwani.jpg",
-    "rating": 2.1,
-    "stock":100
-  },
-  {
-    "id": 20,
-    "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
-    "price": 109.95,
-    "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "category": "kids",
-    "image": "https://www.junaidjamshed.com/media/catalog/product/4/3/43043_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
-    "rating": 3.9,
-    "stock":100
-  },
-  {
-    "id": 21,
-    "title": "Mens Casual Premium Slim Fit T-Shirts ",
-    "price": 22.3,
-    "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
-    "category": "kids",
-    "image": "https://www.junaidjamshed.com/media/catalog/product/4/4/44158-11_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
-    "rating": 4.2,
-    "stock":100
-  },
-  {
-    "id": 22,
-    "title": "Mens Cotton Jacket",
-    "price": 55.99,
-    "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
-    "category": "kids",
-    "image": "https://www.junaidjamshed.com/media/catalog/product/2/2/22-027_2__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
-    "rating": 3.6,
-    "stock":100
-  },
-  {
-    "id": 23,
-    "title": "Mens Casual Slim Fit",
-    "price": 15.99,
-    "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
-    "category": "kids",
-    "image": "https://www.junaidjamshed.com/media/catalog/product/2/2/22-1924_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
-    "rating": 3.5,
-    "stock":100
-  }
+      "id": 16,
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "price": 109.95,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "image": "https://www.junaidjamshed.com/media/catalog/product/3/4/34267_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
+      "rating": 4.9,
+      "stock": 100
+    },
+    {
+      "id": 17,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 22.3,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://www.junaidjamshed.com/media/wysiwyg/w22/Unstitched.jpg",
+      "rating": 4.1,
+      "stock": 100
+    },
+    {
+      "id": 18,
+      "title": "Mens Cotton Jacket",
+      "price": 55.99,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "category": "men's clothing",
+      "image": "https://www.junaidjamshed.com/media/wysiwyg/w22/Kurta_Pajama.jpg",
+      "rating": 4.2,
+      "stock": 100
+    },
+    {
+      "id": 19,
+      "title": "Mens Casual Slim Fit",
+      "price": 15.99,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "men's clothing",
+      "image": "https://www.junaidjamshed.com/media/wysiwyg/w22/Sherwani.jpg",
+      "rating": 2.1,
+      "stock": 100
+    },
+    {
+      "id": 20,
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "price": 109.95,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "kids",
+      "image": "https://www.junaidjamshed.com/media/catalog/product/4/3/43043_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
+      "rating": 3.9,
+      "stock": 100
+    },
+    {
+      "id": 21,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 22.3,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "kids",
+      "image": "https://www.junaidjamshed.com/media/catalog/product/4/4/44158-11_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
+      "rating": 4.2,
+      "stock": 100
+    },
+    {
+      "id": 22,
+      "title": "Mens Cotton Jacket",
+      "price": 55.99,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "category": "kids",
+      "image": "https://www.junaidjamshed.com/media/catalog/product/2/2/22-027_2__2.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
+      "rating": 3.6,
+      "stock": 100
+    },
+    {
+      "id": 23,
+      "title": "Mens Casual Slim Fit",
+      "price": 15.99,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "kids",
+      "image": "https://www.junaidjamshed.com/media/catalog/product/2/2/22-1924_1_.jpg?quality=80&bg-color=255,255,255&fit=bounds&height=560&width=436",
+      "rating": 3.5,
+      "stock": 100
+    }
   ],
   "Reviews": [
     {
       "review": "Your website soo cool",
       "customer": "Muhammad Zubair",
       "id": 1
+    },
+    {
+      "review": "Your website soo cool",
+      "customer": "ali",
+      "id": 2
     }
   ]
 }
