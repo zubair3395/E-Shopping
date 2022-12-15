@@ -6,10 +6,19 @@ export default function Total({total}) {
     useEffect(()=>{
       setOrder(total+25+24);
     })
+   function handleCheckOut(){
+    if(total>49){
+    alert("Your order successfully")
+   }
+   else
+   {
+   alert("Please order something");
+   }
+  }
   return (
     <>
       <div className='mx-5 position-fixed'>
-        <div className="row mt-2">
+        <div className="row">
         <h4>Order summary</h4>
         </div>
         <hr />
@@ -49,7 +58,7 @@ export default function Total({total}) {
           </div>
         </div>
         <div className='row'>
-          <button className='btn btn-info p-2 rounded-5 mt-3'> <strong>Checkout</strong> </button>
+          <button className='btn btn-info p-2 rounded-5 mt-3' onClick={handleCheckOut}> <strong>Checkout</strong> </button>
         </div>
          </div>
       

@@ -13,8 +13,7 @@ export default function AdminPage() {
     })
   return (
     <>
-      <h1>this is Admin page </h1>
-     { review.map((element)=> element.review) }
+    <h1>this is admin page</h1>
     </>
   )
 }

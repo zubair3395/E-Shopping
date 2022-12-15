@@ -9,7 +9,7 @@ export default function LoginAdmin() {
   useEffect(()=>{
     let url = "http://localhost:3004/admin";
     fetch(url).then((response)=> response.json()).then((data)=> setDatabase(data));
-  })
+  },[])
   console.log("Admin", email);
    const handleclick = ()=>{
     navigate("/AdminPage")
@@ -80,7 +80,6 @@ export default function LoginAdmin() {
                         onChange={(e)=> setPassword(e.target.value)}
                       />
                     </div>
-
                     <button
                       className="btn btn-outline-light btn-lg px-5"
                       type="submit"

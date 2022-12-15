@@ -29,7 +29,7 @@ export const ProductDetail = () => {
       .then((response) => response.json())
       .then((json) => {
         setproduct(json);
-      });
+      },[]);
   });
     return (
       <>
@@ -51,7 +51,7 @@ export const ProductDetail = () => {
           </p>
           <i className="fa fa-start"></i>
           <h3 className="display-6 fw-bold my-4"> $ {product.price}</h3>
-          <p className="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa tempore vero sequi iure in soluta distinctio quas id impedit harum?</p>
+          <p className="lead">{product.decription ? product.decription : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa tempore vero sequi iure in soluta distinctio quas id impedit harum"}</p>
           <buttom className="btn btn-outline-info px-4 py-2 mx-5">
             Add to Cart
           </buttom>

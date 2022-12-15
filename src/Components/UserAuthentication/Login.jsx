@@ -29,7 +29,7 @@ export default function Login() {
   useEffect(()=>{
     let url = "http://localhost:3004/users";
     fetch(url).then((response)=> response.json()).then((data)=> setDatabase(data));
-  })
+  },[])
 
 
   return (
