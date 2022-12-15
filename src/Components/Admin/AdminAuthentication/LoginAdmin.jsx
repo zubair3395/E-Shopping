@@ -1,14 +1,18 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-export default function Login() {
-
+import { useNavigate } from 'react-router-dom';
+export default function LoginAdmin() {
   const [database, setDatabase] = useState([]);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+  useEffect(()=>{
+    let url = "http://localhost:3004/admin";
+    fetch(url).then((response)=> response.json()).then((data)=> setDatabase(data));
+  })
+  console.log("Admin", email);
    const handleclick = ()=>{
-    navigate("/shoppingCart")
+    navigate("/AdminPage")
     }
   const handleSubmit= ()=>{
    const userData = database.find((c)=> c.email===email)
@@ -26,14 +30,11 @@ export default function Login() {
     alert("data can't found");
    }
   }
-  useEffect(()=>{
-    let url = "http://localhost:3004/users";
-    fetch(url).then((response)=> response.json()).then((data)=> setDatabase(data));
-  })
 
 
   return (
     <>
+    <div>
         <div className="container h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
             <div className="col-12 col-md-8 col-lg-6 col-xl-5 mt-3">
@@ -42,13 +43,12 @@ export default function Login() {
                 style={{
                   backgroundColor: "#49dae3",
                   borderRadius: "1rem",
-                  color: "black"
                 }}
               >
                 <div className="card-body p-5 " >
                     <h2 className="fw-bold mb-2 text-uppercase text-center">LogIn</h2>
-                    <p className=" text-center">
-                      Please enter your login and password!
+                    <p className="text-white-50 text-center">
+                      Please enter your Email and password!
                     </p>
                    
                     <div className="form-outline form-white mb-4">
@@ -88,16 +88,12 @@ export default function Login() {
                     >
                       LogIn
                     </button>
-                    <p >
-                      Don't have an account?{" "}
-                      <Link to="/UserSignUp" className="fw-bold">
-                        Sign Up
-                      </Link>
-                    </p>
+                    
                 </div>
               </div>
             </div>
           </div>
+        </div>
         </div>
     </>
   )

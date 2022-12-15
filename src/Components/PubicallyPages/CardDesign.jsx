@@ -1,12 +1,15 @@
 import React from 'react'
+import Navbar from './Navbar'
 
-export default function CardDesign() {
+export default function CardDesign({collection, product}) {
   return (
-   
     <>
-        {/* <div className="row">
+    <Navbar/>
+    <div className="container my-5">
+      <h1>{product}</h1>
+        <div className="row my-3">
             {
-                menCollection.map((element, index)=>
+                collection.map((element, index)=>
                 <div className="col-md">
         <div className="card2" key={index}>
           <div className="shirt">
@@ -14,13 +17,12 @@ export default function CardDesign() {
           </div>
           <div className="information my-3">
             <div className="text">
-              <strong>Leather golves</strong>
-              <p>Perfect mint green</p>
+              <strong>{element.title.slice(0,20)}...</strong>
+              <p>{element.category}</p>
             </div>
             <div className="dollar">
-              <div><a href="/" className="btn btn-outline-info"> $42.0</a></div>
+              <div><a href="/" className="btn btn-outline-info"> Price: {element.price}</a></div>
               <div className="mx-lg-5 mb-5"> <i className="bi bi-star-fill"></i> <span> 4.8 Review (4.9)</span></div>
-             
             </div>
           </div>
         </div>
@@ -28,7 +30,8 @@ export default function CardDesign() {
                 )
             }
         
-        </div> */}
+        </div>
+        </div>
       
     </>
   )

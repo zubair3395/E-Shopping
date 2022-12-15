@@ -49,6 +49,8 @@
   .shrit1{
     overflow: hidden;
     width: 20rem;
+    height: 20rem;
+    border-radius: 2rem;
   }
   .information{
     margin-left: 1rem;

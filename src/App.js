@@ -6,10 +6,16 @@ import Signup from './Components/UserAuthentication/Signup';
 import ShoppingCart from './Components/ShoppingCart/ShoppingCart';
 import Auth from './Components/UserAuthentication/Auth';
 import { ProductDetail } from './Components/ShoppingCart/ProductDetail';
-import CardDesign from './Components/PubicallyPages/CardDesign';
+import Mens from './Components/PubicallyPages/Mens';
+import Women from './Components/PubicallyPages/Women';
+import Kids from './Components/PubicallyPages/Kids';
+import Shoes from './Components/PubicallyPages/Shoes';
+import AuthAdmin from './Components/Admin/AuthAdmin';
+import AdminPage from './Components/Admin/AdminPage';
+import LoginAdmin from './Components/Admin/AdminAuthentication/LoginAdmin';
 function App() {
   return (
-    <div className="App">
+    <div>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>}/>
@@ -17,8 +23,14 @@ function App() {
       <Route path='/productDetail/:id' element={<ProductDetail/>}/>
       <Route path='/UserSignup' element={<Signup/>}/>
       <Route path='/shoppingCart' element={<Auth><ShoppingCart/></Auth>}/>
+      <Route path='/menCollection' element={<Mens/>}/>
+      <Route path="/womenCollection" element={<Women/>}/>
+      <Route path='/kidsCollection' element={<Kids/>}/>
+      <Route path='/shoesCollection' element={<Shoes/>}/>
+      <Route path='/Adminpage' element={<AuthAdmin><AdminPage/></AuthAdmin>}/>
+      <Route path='/AdminLogin' element={<LoginAdmin/>}/>
     </Routes>
-    <CardDesign/>
+    
     </BrowserRouter>
     
     </div>

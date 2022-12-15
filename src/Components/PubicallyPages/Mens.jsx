@@ -4,14 +4,19 @@ import { useState } from 'react'
 import CardDesign from './CardDesign';
 
 export default function Mens() {
-    // const [menCollection, setMenCollection] = useState([]);
-    // useEffect(()=>{
-    //     fetch("http://localhost:3004/collection").then((response)=> response.json()).then((data)=> setMenCollection(data));
-    // })
-    // console.log("mens", menCollection)
+    const [allCollection, setAllCollection] = useState([]);
+    const [menCollection, setMenCollection] = useState([]);
+    useEffect(()=>{
+        fetch("http://localhost:3004/Collection").then((response)=> response.json()).then((data)=> setAllCollection(data));
+       getMenCollection();
+      })
+    function getMenCollection(){
+     let tempArr = allCollection.filter((item)=> item.category==="men's clothing");
+     setMenCollection(tempArr);
+    }
   return (
     <>
-       {/* <CardDesign menCollection={menCollection}/> */}
+       <CardDesign collection={menCollection} product="Men collection New Arrival"/>
     </>
   )
 }

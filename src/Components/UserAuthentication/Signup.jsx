@@ -33,9 +33,8 @@ export default function Signup() {
               <div
                 className="cards text-white"
                 style={{
-                  backgroundColor: "green",
+                  backgroundColor: "#49dae3",
                   borderRadius: "1rem",
-                  border: "2px solid",
                 }}
               >
                 <div className="card-body p-5 ">
@@ -93,7 +92,7 @@ export default function Signup() {
                   </button>
                   <p>
                     Already have an account?{" "}
-                    <Link to="/userLogin" className="text-white-50 fw-bold">
+                    <Link to="/userLogin" className=" fw-bold">
                       Sign In
                     </Link>
                   </p>

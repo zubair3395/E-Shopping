@@ -23,31 +23,31 @@ export default function Navbar() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <Link className="nav-link active" aria-current="page" to="/menCollection">
                 <i className="fa fa-male" aria-hidden="true"></i> Men
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/womenCollection">
                 <i className="fa fa-female" aria-hidden="true"></i> Women
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/kidsCollection">
                 <i className="fa fa-child" aria-hidden="true"></i> Kids
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/shoesCollection">
                 <img src="https://img.icons8.com/ios-filled/50/null/trainers.png" height={20} alt=".."/>  Shoes
-                </a>
+                </Link>
               </li>
             </ul>
             <div className="button">
-              <a href="/" className="btn btn-outline-info">
+              <Link to="/AdminLogin" className="btn btn-outline-info">
                 {" "}
                 <i className="fa fa-sign-in me-1"></i> Admin
-              </a>
+              </Link>
               <Link to="/UserSignup" className="btn btn-outline-info ms-2">
                 {" "}
                 <i className="fa fa-user-plus me-1 "></i> Signup

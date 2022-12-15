@@ -15,13 +15,13 @@ function ShoppingCart() {
        }
   useEffect(()=>{
      getData()
-  },[])
+  })
   function decrement(id){     
     let tempArray = productList;
-    if(tempArray[id].quantity>1){
+    if(tempArray[id].quantity>0){
       tempArray[id].quantity-=1;
       setProductList([...tempArray]);
-      SetTotal(total-(tempArray[id].quantity*tempArray[id].price))
+      SetTotal(total-tempArray[id].price);
     }
     if(tempArray[id].stock<100){
       tempArray[id].stock+=1;
@@ -33,7 +33,7 @@ function ShoppingCart() {
     let tempArray = productList;
     tempArray[id].quantity+=1;
     setProductList([...tempArray]);
-    let subPrice= tempArray[id].quantity * tempArray[id].price;
+    let subPrice= total+ tempArray[id].price;
     SetTotal(subPrice);
      tempArray[id].stock-=1;
   }
