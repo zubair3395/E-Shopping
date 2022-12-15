@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slide-row{
+    align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.text-slide{
+    margin-left: 5rem;
+    width: 100%;
+}
+.picture-slide{
+    width: 100%;  
+}
+.picture-slide1{
+   height: 95vh;
+   box-sizing: border-box;
+}
+.card1{
+    display: flex;
+    width: 25rem;
+    height: 15rem;
+    background-color: rgb(222, 203, 206);
+   box-shadow: 0rem 0.3rem 0.3rem pink;
+   border-radius: 2rem;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .card-image{
+    margin-left: 12rem;
+    height: 10rem;
+    width: 15rem;
   }
-  to {
-    transform: rotate(360deg);
+  .box1{
+    position: absolute;
+    margin: 1rem 3rem 1rem 1rem;
+    overflow: hidden;
   }
-}
+  .card1 :hover{
+    cursor: pointer;
+    background-color: pink;
+    overflow: hidden;
+    border-radius: 2rem;
+  }
+  .card2{
+    width: 20rem;
+    border-radius: 2rem;
+    box-shadow: 1px 3px 3px lightblue;
+  }
+  .shirt{
+    background-color: rgb(245, 237, 237);
+    border-radius: 2rem;
+  }
+  .shrit1{
+    overflow: hidden;
+    width: 20rem;
+  }
+  .information{
+    margin-left: 1rem;
+  }
+  .dollar{
+    display: flex;
+  }
+  .shirt :hover{
+    background-color: lightgray;
+    border-radius: 2rem;
+    display: block;
+  }  
