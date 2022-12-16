@@ -15,7 +15,7 @@ import AdminPage from './Components/Admin/AdminPage';
 import LoginAdmin from './Components/Admin/AdminAuthentication/LoginAdmin';
 function App() {
   return (
-    <div>
+    <div className='bg-light'>
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<Home/>}/>

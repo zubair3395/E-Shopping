@@ -2,7 +2,7 @@ import React from 'react';
 import {useState, useEffect} from 'react';
 import Card from './Card';
 import Total from './Total';
-import Navbar from '../PubicallyPages/Navbar';
+import CartNavbar from './CartNavbar';
 
 function ShoppingCart() {
   const [total, SetTotal ] = useState(0);
@@ -42,7 +42,7 @@ function ShoppingCart() {
   }
   return (
     <>
-       <Navbar/>
+       <CartNavbar/>
        <div className='container my-3'>
        <div className="row">
         <div className="col-md">

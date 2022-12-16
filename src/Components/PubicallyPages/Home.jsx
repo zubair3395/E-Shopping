@@ -9,11 +9,13 @@ export default function Home() {
   useEffect(()=>{
     fetch("http://localhost:3004/Collection").then((response)=> response.json()).then((data)=> setAllCollection(data));
    
-  })
+  },[])
   return (
     <div>
       <Navbar/>
       <Slider/>
+      <div className="container my-5">
+        <h1 className='my-3'>All Collection</h1>
       <div className="row my-3">
         {
       allCollection.map((element, index)=>
@@ -34,6 +36,7 @@ export default function Home() {
           </div>
         </div>
        </div> )}
+      </div>
       </div>
       <Footer/>
     </div>

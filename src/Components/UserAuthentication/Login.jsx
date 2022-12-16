@@ -4,16 +4,19 @@ import { Link, useNavigate } from 'react-router-dom';
 export default function Login() {
 
   const [database, setDatabase] = useState([]);
+  const [specificID, setSpecificID]= useState(null);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
    const handleclick = ()=>{
-    navigate("/shoppingCart")
+    navigate("/shoppingCart");
     }
+    console.log("userID", specificID);
   const handleSubmit= ()=>{
    const userData = database.find((c)=> c.email===email)
    if(userData){
     if(userData.email=== email && userData.password=== password){
+      setSpecificID(userData.id);
       localStorage.setItem("email",JSON.stringify(userData.email));
       localStorage.setItem("password",JSON.stringify(userData.password));
       handleclick();
